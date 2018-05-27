@@ -19,9 +19,17 @@
             width: 100vw;
             height: 100vh;
         }
+
+        [v-cloak] {
+            display: none;
+        }
     </style>
 </head>
 <body class="bg-grey-lighter flex h-full items-center justify-center w-100">
     @yield('content')
+
+    <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    @yield('scripts')
 </body>
 </html>
