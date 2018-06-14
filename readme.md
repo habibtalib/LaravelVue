@@ -4,4 +4,7 @@ Vue is a javascript framework that allows a developer to easily update the DOM a
 
 The purpose of this post is to reach out to the server side Laravel developers land (not specifically) to point out a huge increase in user experience leveraging Vue.
 
-Read the rest of the article [here](https://medium.com/@a_fsardo/vue-js-for-laravel-developers-improving-slow-actions-bfb6ac024995).
+Read the rest of the articles:
+
+- [Vue.js for Laravel Developers (Improving slow actions)  —  File upload](https://medium.com/@a_fsardo/vue-js-for-laravel-developers-improving-slow-actions-bfb6ac024995)
+- [Vue.js for Laravel Developers (Improving slow actions)  —  Sortable list](https://medium.com/@a_fsardo/vue-js-for-laravel-developers-improving-slow-actions-sortable-list-4f031ed27274)
