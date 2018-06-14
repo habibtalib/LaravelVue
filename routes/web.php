@@ -11,5 +11,8 @@
 |
 */
 
-Route::get('/', 'ImagesController@create');
+Route::get('images', 'ImagesController@create');
 Route::post('images', 'ImagesController@show');
+
+Route::get('lists', 'ListsController@show');
+Route::get('lists/update', 'ListsController@update');
