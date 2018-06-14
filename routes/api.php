@@ -12,3 +12,4 @@
 */
 
 Route::post('images', 'API\ImagesController@store');
+Route::put('lists', 'API\ListsController@update');

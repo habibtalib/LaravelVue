@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Storage;
+use Illuminate\Http\Request;
 
 class ListsController extends Controller
 {
@@ -15,11 +16,11 @@ class ListsController extends Controller
         ]);
     }
 
-    public function update()
+    public function update(Request $request)
     {
         $list = explode("\n", Storage::get('list.txt'));
-        $index = request('index');
-        $direction = request('direction');
+        $index = $request->index;
+        $direction = $request->direction;
 
         switch($direction) {
             case 'down':
